@@ -2,13 +2,16 @@
     // oop -class//
 
 class Animal{
-    name:string;
-    specises:string;
-    sound:string;
-    constructor(name:string,specises:string,sound:string){
-        this.name=name;
-        this.sound=sound;
-        this.specises=specises;
+//    public name:string;
+//    public specises:string;
+//    public  sound:string;
+
+//** */ parameter Properties constructor ar vitore public key word used korle this.name lika lagve nah 
+
+    constructor(public name:string,public specises:string,public sound:string){
+        // this.name=name;
+        // this.sound=sound;
+        // this.specises=specises;
     }
 
     makesound(){
