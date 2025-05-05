@@ -1,5 +1,5 @@
 {
-    // oop -class
+    // oop -class//
 
 class Animal{
     name:string;
